@@ -25,7 +25,18 @@
   * If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.
 
 **You should also check for issues with your JavaScript code using JSHint, linked in the Project Resources.**
-* [JSHint](http://jshint.com/ "Link to JSHint")
+* [JSHint](http://jshint.com/)
   * JSHint may show you some warnings, so make sure to check through those for any potential problems. You do not need to fix every warning listed but reviewing them can be useful.
 
 **Before you submit your project for review, make sure you can check off all of the items on the [Student Project Submission Checklist](http://treehouse-techdegree.s3.amazonaws.com/Student-Project-Submission-Checklist.pdf). The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!**
+
+**If you're having trouble with this project, make sure you take a look at this great study guide:**
+[Project 5 Study Guide](https://drive.google.com/file/d/123uM-vnEMAt5_lCLe7oTnvUMHxcaeFmv/view?usp=sharing)
+
+**NOTE:** A good practice is to check your project for cross browser compatibility. Making sure that it looks and functions correctly in multiple (at least three) browsers is an important part of being a top-notch developer. If you want, leave a comment to the project reviewer about which browser(s) the project was checked to ensure they are seeing things as you have designed them.
+
+Some browser options:
+* Google Chrome
+* Mozilla Firefox
+* Internet Explorer/Edge
+* Safari
