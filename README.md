@@ -25,4 +25,4 @@
   * If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.
 
 **You should also check for issues with your JavaScript code using JSHint, linked in the Project Resources.**
-* [JSHint](http://jshint.com/ "Link to JSHint)
+* [JSHint](http://jshint.com/ "Link to JSHint")
