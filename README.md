@@ -20,3 +20,6 @@
 **Make sure to check your code is valid by running it through an HTML and CSS validator.**
 * Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.
 * **There are a few exceptions that you don’t need to fix:**
+  * Don’t worry about any warnings, we just need you to check any errors that might be there.
+  * If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-classes these errors should be ignored.
+  * If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.
