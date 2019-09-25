@@ -26,3 +26,6 @@
 
 **You should also check for issues with your JavaScript code using JSHint, linked in the Project Resources.**
 * [JSHint](http://jshint.com/ "Link to JSHint")
+  * JSHint may show you some warnings, so make sure to check through those for any potential problems. You do not need to fix every warning listed but reviewing them can be useful.
+
+**Before you submit your project for review, make sure you can check off all of the items on the [Student Project Submission Checklist](http://treehouse-techdegree.s3.amazonaws.com/Student-Project-Submission-Checklist.pdf). The checklist is designed to help you make sure you’ve met the grading requirements and that your project is complete and ready to be submitted!**
