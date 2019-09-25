@@ -40,3 +40,16 @@ Some browser options:
 * Mozilla Firefox
 * Internet Explorer/Edge
 * Safari
+
+### Extra Credit
+To get an "exceeds" rating, complete all of the steps below:
+
+**Include a mobile-first design for both the gallery page and the lightbox:**
+* Use media queries to make sure that the photos and layout adjust for a mobile-friendly experience.
+
+**Write your own JavaScript or jQuery code instead of using a jQuery plugin for the search/content filtering requirement.**
+
+**NOTE: Getting an "Exceed Expectations" grade.**
+* See the rubric in the "How You'll Be Graded" tab above for details on what you need to receive an "Exceed Expectations" grade.
+* Passing grades are final. If you try for the "Exceeds Expectations" grade, but miss an item and receive a “Meets Expectations” grade, you won’t get a second chance. Exceptions can be made for items that have been misgraded in review.
+* Always mention in the comments of your submission or any resubmission, what grade you are going for. Some students want their project to be rejected if they do not meet all Exceeds Expectations Requirements, others will try for all the "exceeds" requirement but do not mind if they pass with a Meets Expectations grade. Leaving a comment in your submission will help the reviewer understand which grade you are specifically going for
