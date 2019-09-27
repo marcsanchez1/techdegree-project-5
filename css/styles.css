@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700i&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+input[type="search"] {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 40px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(0, 195, 255);
+  margin: 25px auto;
+  transition: .5s ease-in-out;
+}
+
+input:focus {
+  /* border: 3px solid rgb(102, 206, 238); */
+  box-shadow: inset 0 0 5px rgb(102, 206, 238);
+}
+
+input::placeholder {
+  color: rgba(165, 165, 165, 0.8);
+  text-align: center;
+  font-size: .678em;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.photo-container img {
+  width: 250px;
+  max-width: 100%;
+}
+
+.photo {
+	position: relative;
+	overflow: hidden;
+}
+
+.photo img {
+  transition: .25s ease-in-out;
+  opacity: 1;
+}
+
+.photo img:hover {
+  transform: scale(1.2);
+}
+
+/* Lightbox styles */
+.lightcase-icon-close:before {
+  content: 'X';
+}
+
+.lightcase-icon-prev:before {
+  content: '\003c';
+}
+
+.lightcase-icon-next:before {
+  content: '\003e';
+}
+
+#lightcase-info,
+#lightcase-caption {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em !important;
+}
+
+@media 
+
+
+
