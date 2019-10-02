@@ -23,7 +23,7 @@ input[type="search"] {
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
-  color: rgb(0, 195, 255);
+  color: rgba(0, 0, 0, .5);
   margin: 25px auto;
   transition: .5s ease-in-out;
 }
@@ -36,7 +36,7 @@ input:focus {
 input::placeholder {
   color: rgba(165, 165, 165, 0.8);
   text-align: center;
-  font-size: .678em;
+  font-size: 1em;
 }
 
 .photo-container {
@@ -44,25 +44,29 @@ input::placeholder {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .photo-container img {
   width: 250px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
-.photo {
+img.photo {
 	position: relative;
-	overflow: hidden;
+  overflow: hidden;
+  margin: 25px;
 }
 
-.photo img {
+img.thumbnail-img {
   transition: .25s ease-in-out;
   opacity: 1;
 }
 
-.photo img:hover {
+img:hover.thumbnail-img {
   transform: scale(1.2);
+  opacity: .5;
 }
 
 /* Lightbox styles */
@@ -85,7 +89,17 @@ input::placeholder {
   font-size: 1.25em !important;
 }
 
-@media 
+.lightcase-icon-play,
+.lightcase-icon-pause {
+  display: none !important;
+}
+
+@media (min-width: 640px) {
+
+  /* .photo {
+    margin: 15px;
+  } */
+}
 
 
 
