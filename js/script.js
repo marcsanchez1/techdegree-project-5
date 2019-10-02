@@ -20,7 +20,7 @@ $('#photo-search').keyup(function() {
       let imgAlt = img.alt.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
       if((imgAlt.toLowerCase()).indexOf(val.toLowerCase()) > -1) {
         $(img).show();
-      }
+      } 
     });
   }
 });
