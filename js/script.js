@@ -1,4 +1,9 @@
 
+// Sticky navigation
+$("#search-input").sticky({
+  topSpacing: 0
+});
+
 // Settings for lightbox
 $(document).ready(function($) {
       $('a[data-rel^=lightcase]').lightcase({
